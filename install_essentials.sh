@@ -103,22 +103,16 @@ brew update
 brew upgrade
 
 echo "Installing Essentials"
-brew install ctags
+brew install ctags wget
 brew install openssl
 brew install tmux
-brew install maven
-brew install cmake
-brew install vim
-brew install zsh
-brew install libtiff 
-brew install libjpeg 
+brew install maven cmake gcc freetype
+brew install vim zsh
+brew install libtiff libjpeg 
 brew install webp 
-brew install py2cairo
-brew install cairo
+brew install py2cairo cairo
 brew install little-cms2
 brew install graphviz --with-librsvg --with-x11
-brew install gcc
-brew install freetype
 
 # GitHub
 brew install git
@@ -159,16 +153,12 @@ if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
 fi
 
-pip install --upgrade pip
-pip install pip-review
-pip install virtualenv
-pip install virtualenvwrapper
+pip install --upgrade pip pip-review
+pip install virtualenv virtualenvwrapper
 
 
-pip3 install --upgrade pip
-pip3 install pip-review
-pip3 install virtualenv
-pip3 install virtualenvwrapper
+pip3 install --upgrade pip pip-review
+pip3 install virtualenv virtualenvwrapper
 
 pip install "ipython[all]"
 pip3 install "ipython[all]"
