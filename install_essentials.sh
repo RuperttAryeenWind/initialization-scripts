@@ -176,3 +176,5 @@ pip install snakeviz pyzmq pygments q
 pip3 install matplotlib
 pip3 install snakeviz pyzmq pygments q
 
+pip install --upgrade --no-cache-dir https://get.graphlab.com/GraphLab-Create/2.1/ruperttaryeenwind@gmail.com/your product key here/GraphLab-Create-License.tar.gz
+pip3 install --upgrade --no-cache-dir https://get.graphlab.com/GraphLab-Create/2.1/ruperttaryeenwind@gmail.com/your product key here/GraphLab-Create-License.tar.gz
